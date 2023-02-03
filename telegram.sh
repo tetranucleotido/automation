@@ -3,8 +3,8 @@
 source ./automation/read_config.sh
 source ./automation/docker_getenv.sh
 
-BOT_URL="https://api.telegram.org/bot5881753165:AAEjB95ZRDUW0kRMCzMA7C1yjpHemiGTpiM/sendMessage"
-TELEGRAM_CHAT_ID="-1001508340482"
+BOT_URL="https://api.telegram.org/bot1721972932:AAHgJvgla6OASDrs8-GHNCCpuYnLZhrSKmM/sendMessage"
+TELEGRAM_CHAT_ID="-878070277"
 # Set formatting
 PARSE_MODE="Markdown"
 COMMIT=$(git log -1 --pretty=format:"%s")
