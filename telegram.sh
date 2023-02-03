@@ -4,12 +4,12 @@ source ./automation/read_config.sh
 source ./automation/docker_getenv.sh
 
 BOT_URL="https://api.telegram.org/bot1721972932:AAHgJvgla6OASDrs8-GHNCCpuYnLZhrSKmM/sendMessage"
-TELEGRAM_CHAT_ID="-878070277"
+TELEGRAM_CHAT_ID="878070277"
 # Set formatting
 PARSE_MODE="Markdown"
 COMMIT=$(git log -1 --pretty=format:"%s")
 BUILD_STATUS="SUCCESS"
-
+https://api.telegram.org/bot1721972932:AAHgJvgla6OASDrs8-GHNCCpuYnLZhrSKmM/getUpdates
 # Send message function
 send_msg () {
     curl -s -X POST ${BOT_URL} -d chat_id=$TELEGRAM_CHAT_ID \
